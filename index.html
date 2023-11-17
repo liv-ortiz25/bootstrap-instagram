@@ -26,9 +26,13 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <div class="mb-3">
+                    <div class=" vstack gap-2 mb-4">
                         <label for="caption" class="form-label">Caption:</label>
-                        <textarea class="form-control" id="caption" placeholder="Add the caption of your post here" rows="3"></textarea>
+                        <textarea class="form-control" id="caption" placeholder="Add the caption of your post here" rows="4"></textarea>
+                          <div class="d-grid gap-2 d-md-flex" >
+                            <button type="button" class="btn btn-light btn-sm"><i class="fa-solid fa-camera fa-xl" style="color: #000000;"></i></i></button>
+                            <button type="button" class="btn btn-light btn-sm"><i class="fa-solid fa-location-dot fa-xl" style="color: #000000;"></i></button>
+                          </div>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -40,10 +44,10 @@
           </div>
 <!--dropdown button-->
           <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
               <i class="fa-solid fa-gear fa-sm" style="color: #ffffff;"></i>
             </button>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu  dropdown-menu-lg-end">
               <li><a class="dropdown-item" href="#">Profile</a></li>
               <li><a class="dropdown-item" href="#">Accesibility</a></li>
               <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
